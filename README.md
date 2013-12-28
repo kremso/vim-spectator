@@ -1,6 +1,6 @@
 # spectator.vim
 
-vim-rails provides `:A` command that alternates between code and tests. Unfortunately, it only works if the alternate file exists and this is not likely to change.
+[vim-rails](https://github.com/tpope/vim-rails) provides `:A` command that alternates between code and tests. Unfortunately, it [only works if the alternate file exists](https://github.com/tpope/vim-rails/issues/135) and this is not likely to change.
 
 spectator.vim complements rails.vim and overrides its `:A` command. If the alternate file exists, the behavior is the same as with rails.vim. If the alternate file does not exist, it is created and populated with skeleton code. Let's see.
 
