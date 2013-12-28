@@ -4,7 +4,7 @@ vim-rails provides `:A` command that alternates between code and tests. Unfortun
 
 spectator.vim complements rails.vim and overrides its `:A` command. If the alternate file exists, the behavior is the same as with rails.vim. If the alternate file does not exist, it is created and populated with skeleton code. Let's see.
 
-Start with a new file, say  `lib/search/es/mapper.rb'. press `:A` and spectator.vim will create the corresponding spec file in `spec/lib/search/es/mapper_spec.rb` and populate it with
+Start with a new file, say  `lib/search/es/mapper.rb`. press `:A` and spectator.vim will create the corresponding spec file in `spec/lib/search/es/mapper_spec.rb` and populate it with
 
 ```
 require 'search/es/mapper'
